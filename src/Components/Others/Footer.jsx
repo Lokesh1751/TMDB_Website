@@ -44,7 +44,7 @@ function Footer() {
           <Link to="/login">Join the Community</Link>
         </div>
       </div>
-      <div className="flex flex-row gap-16 flex-wrap xl:gap-10">
+      <div className="flex flex-row gap-14 flex-wrap xl:gap-10">
         {footerData.map((section, index) => (
           <div key={index} className="text-white">
             <h1 className="font-bold text-xl mb-4">{section.title}</h1>
