@@ -1,0 +1,12 @@
+.custom-style {
+  background-color: #032541;
+  padding: 8px;
+  border-radius: 20px;
+  color: #26c7a2;
+  margin-left: 15px;
+  transition: 0.2s ease-in-out;
+}
+.simple {
+  margin-left: 15px;
+  transition: 0.2s ease-in-out;
+}
