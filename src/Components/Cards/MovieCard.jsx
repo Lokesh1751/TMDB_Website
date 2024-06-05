@@ -7,6 +7,11 @@ import { BsPlayFill } from "react-icons/bs";
 import { UserContext } from "../../context/UserContext";
 
 function MovieCard({ movie, onPlayTrailer }) {
+  const getPathColor = (vote) => {
+    if (vote < 4.5) return "red";
+    if (vote < 7) return "#CFD331";
+    return "green";
+  };
   const [providers, setProviders] = useState(null);
   const {
     watchlist,
@@ -137,10 +142,7 @@ function MovieCard({ movie, onPlayTrailer }) {
               text={`${Math.round(movie.vote_average * 10, 1)}%`}
               styles={buildStyles({
                 textColor: "white",
-                pathColor:
-                  Math.round(movie.vote_average * 10, 1) < 70
-                    ? "#CFD331"
-                    : "green",
+                pathColor: getPathColor(movie.vote_average),
                 trailColor: "grey",
                 textSize: "24px",
                 backgroundColor: "#022540",

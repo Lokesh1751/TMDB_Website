@@ -15,6 +15,7 @@ function App() {
     <UserProvider>
       <Router>
         <div>
+        
           <Navbar />
           <Routes>
             <Route path="/" element={<HomePage />} />

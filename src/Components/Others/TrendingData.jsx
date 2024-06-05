@@ -15,6 +15,8 @@ function TrendingData({ movies }) {
                 name={item.title}
                 date={item.release_date}
                 imageUrl={item.poster_path}
+                vote={item.vote_average}
+                
               />
             </Link>
           </div>
