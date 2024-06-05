@@ -2,14 +2,12 @@ import React, { useState, useContext, useEffect } from "react";
 import { UserContext } from "../../context/UserContext";
 import { useNavigate } from "react-router-dom";
 
-
 function Login() {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const { login, addUser, isLoggedIn } = useContext(UserContext);
   const navigate = useNavigate();
   const [showLoginMessage, setShowLoginMessage] = useState(false);
-
 
   const handleLogin = (e) => {
     e.preventDefault();
@@ -39,8 +37,8 @@ function Login() {
           In order to use the editing and rating capabilities of TMDB, as well
           as get personal recommendations you will need to login to your
           account. If you do not have an account, registering for an account is
-          free and simple.{" "}
-          <span className="text-[#43B4E4]">Click here</span> to get started.
+          free and simple. <span className="text-[#43B4E4]">Click here</span> to
+          get started.
         </p>
         <p className="mt-6">
           If you signed up but didn't get your verification email,{" "}
@@ -68,10 +66,7 @@ function Login() {
             >
               Login
             </button>
-            <button
-              type="button"
-              className="text-[#43B4E4] hover:underline"
-            >
+            <button type="button" className="text-[#43B4E4] hover:underline">
               Reset Password
             </button>
           </div>
