@@ -8,7 +8,7 @@ import Watchlist from "./Components/Others/Watchlist";
 import Login from "./Components/Others/Login";
 import { UserProvider } from "./context/UserContext";
 import Navbar from "./Components/Others/Navbar";
-import Footer from "./Components/Cards/Footer";
+import Footer from "./Components/Others/Footer";
 
 function App() {
   return (
