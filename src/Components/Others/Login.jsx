@@ -25,7 +25,7 @@ function Login() {
     }
   }, [isLoggedIn]);
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col xl:min-h-screen">
       <div className="flex-grow w-[90%] mx-auto p-4 md:p-8">
         <h1 className="text-3xl font-semibold text-start mt-6">
           Login to your account
