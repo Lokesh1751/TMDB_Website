@@ -26,7 +26,7 @@ function Navbar() {
       <div className="flex gap-6 flex-wrap items-center p-4 xl:ml-[200px]">
         <Link to="/">
           <img
-            src="https://imgs.search.brave.com/DUqNvslB8hj1G2qWX_D_2QNNJAwYD_egu8u5yfJOtpM/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dC5icmFuZGZldGNo/LmlvL2lkcXNNMXN5/RV8vaWQ0N1h6cU91/YS5zdmc_dXBkYXRl/ZD0xNzA5MjM4MDg0/MjM5.svg"
+            src="https://www.themoviedb.org/assets/2/v4/logos/v2/blue_short-8e7b30f73a4020692ccca9c88bafe5dcb6f8a62a4c6bc55cd9ba82bb2cd95f6c.svg"
             alt="The Movie Database (TMDB)"
             className="w-[140px] h-[20px]"
           />
